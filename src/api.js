@@ -1,4 +1,5 @@
-const BASE = "/goals";  // Use relative path (proxy handles localhost:3001)
+ const BASE = "/goals";
+ // Use relative path (proxy handles localhost:3000)
 
 function normalizeGoal(g) {
   if (!g) return g;
